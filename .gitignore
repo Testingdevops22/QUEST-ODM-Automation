@@ -1,0 +1,25 @@
+# Local Quest ODM configuration
+QuestODM-Client-Config-v2.txt
+QuestODM-EXO-Config.txt
+QuestODM-ODB-Config.txt
+
+# Migration input/mapping data
+Input/
+*.csv
+!examples/*.csv
+
+# Generated reports and runtime output
+Reports/
+Output/
+logs/
+*.log
+
+# PowerShell / editor artifacts
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
